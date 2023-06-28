@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(246, 245, 239);
+  font-family: "helvetica neue";
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 150px;
+  padding: 20px 50px;
+}
+
+i {
+  font-size: 100px;
+  padding: 70px 20px;
+}
+
+.bars {
+  margin-left: 80%;
+}
+
+.header {
+  border-bottom: solid 3px black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffa3a3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f6f5ef;
+}
+.heading {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.gallery {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.gallery .image-container {
+  columns: 3 350px;
+  column-gap: 15px;
+}
+
+.gallery .image-container img {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.gallery .image-container img:hover {
+  transform: scale(0.95);
+}
+.container {
+  max-width: 90vw;
+}
+.box .title {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#search-box {
+  width: 90%;
+  border: none;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.box .btn {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.box .btn.active,
+.box .btn:hover {
+  background-color: #ffa3a3;
+}
+
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: rgba(246, 245, 239, 0.9);
+}
+
+.popup-image img {
+  width: 600px;
+  border: 10px solid rgba(246, 245, 239);
+}
